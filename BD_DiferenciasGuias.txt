@@ -1,0 +1,53 @@
+Crear Ticket(Tiendas)(Admin)
+Editar Ticket(Admin)
+Eliminar Ticket(Admin)
+Consultar Tickets Pendientes(Todos)
+Consultar Tickets Procesados(Todos)
+Procesar Ticket(Ignacio, Admin)
+
+BD DifGuias
+
+Tablas:
+	Nombre: TICKET
+		Campos:
+			IdTicket(INT)(AUTO)
+			FechaAlta
+			FechaBaja
+			FechaModificacion
+			Estatus
+			FkIdUsuarioAlta
+			FkIdUsuarioBaja
+			FkIdUsuarioModificacion
+			FkIdUsuarioAsignado
+			NumeroBulto
+
+	Nombre: USUARIO
+		Campos:
+			IdUsuario(INT)(AUTO)
+			FechaAlta
+			FechaBaja
+			FechaModificacion
+			Estatus			
+			FkIdUsuarioAlta
+			FkIdUsuarioBaja
+			FkIdUsuarioModificacion
+			Usuario
+			Nombre
+			Apellido
+			Clave
+			Correo
+			FfIdTipoUsuario
+
+	Nombre: DETALLE_TICKET
+		Campos:
+			FkIdTicket
+			CodigoArticulo
+			CantidadGuia
+			CantidadRecibida
+		
+	Nombre: TIPO_USUARIO
+		Campos:
+			Idusuario(INT)(AUTO)
+			Nombre
+			
+			

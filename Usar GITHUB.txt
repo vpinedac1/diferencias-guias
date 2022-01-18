@@ -1,0 +1,31 @@
+Se instala primero git
+git-scm.com/download
+se descarga y se instala
+git --version		(probar que este instalado)
+
+crear un nuevo repositorio en github
+github.com/new
+Repositior name (nombre que quieras colocar)
+Descripcion
+
+Se puede buscar proyectos que te pueden interesar
+github.com/trending	(tendencia en git)
+
+Se puede seguir a otros desarrolladores
+
+Al crear un proyecto
+	Titulo
+	Descripcion
+	Template (Si no se sabe cual ocupar BASIC KANBAN)
+	Link repositorio (Se selecciona el repositorio que se creo previamente)
+	Al estar creado
+		Se puede asignar las tareas
+		Crear nuevas tareas
+		Terminar tareas
+Se puede usar Gits para compartir parte del codigo que necesitemos
+
+Descargar cliente grafico Github
+http://desktop.github.com
+
+Yo ocupo SourceTree
+
