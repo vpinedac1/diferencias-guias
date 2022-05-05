@@ -19,7 +19,7 @@ module.exports.authorize = (req, res, next) => {
     }
 };
 
-// gerando token
+// Genererar token
 module.exports.generateToken = (data) => {
     return jwt.sign(data, authenticationToken, {
         expiresIn: 86400, // o meu token vai expirar em 1 dia
